@@ -1,0 +1,58 @@
+.headding{
+    color: white;
+}
+h2{
+    background-color: rgb(110, 70, 253);
+
+}
+
+.container{
+    /* margin-top: 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.main{
+    width: 35%;
+    height: 320px;
+    padding: 5px;
+    margin: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(245, 244, 244);
+    /* box-shadow: 0px 0px 05px 0.2px gray; */
+    
+}
+
+div>input{
+    margin-top: 25px;
+    border-radius: 5px;
+    width: 300px;
+    border: 1px solid rgb(110, 70, 253);
+}
+
+.btn-div>div>button{
+    color: white;
+    margin-top: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color:rgb(110, 70, 253) ;
+    width: 100%;
+}
+
+.btn-div>div>button:hover{
+    color: black;
+    border: 1px solid rgb(110, 70, 253) ;
+    background-color: white;
+ 
+}
+.btn-div>div>button:active{
+    background-color: black;
+    color: white;
+}
